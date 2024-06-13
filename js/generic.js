@@ -221,7 +221,7 @@ window.onclick = function (event) {
 }
 function getMobileOperatingSystem(msgContent) {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    var msg = "I am interested in your product. Call me";
+    var msg = "*I am from Coimbatore*. I am interested in your product. Call me";
     if (msgContent) {
         msg = msgContent;
     }
